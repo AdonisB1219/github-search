@@ -1,0 +1,71 @@
+li {
+  list-style: none;
+  padding: 0;
+}
+
+ul {
+  padding: 1em 0 1em 0;
+  margin: 0;
+  max-width: 100%;
+}
+
+button {
+  background-color: var(--color-dark);
+  color: var(--color-contrast);
+  border: none;
+  border-radius: 4px 13px 0 0;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+button.active {
+  background: rgb(14, 22, 31);
+  background: linear-gradient(0deg, rgba(14, 22, 31, 1) 0%, rgba(108, 141, 177, 1) 75%, rgba(34, 56, 80, 1) 100%);
+}
+
+.button-container {
+  background-color: var(--color-dark);
+  width: fit-content;
+  border-radius: 12px;
+
+}
+
+
+.repositories>ul {
+  display: grid;
+  gap: 1em;
+  grid-auto-rows: 11em;
+  grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
+  background-color: var(--color-dark);
+  border-radius: 0 1em 1em 1em;
+}
+
+ul>li {
+  display: flex;
+  height: fit-content;
+  justify-self: center;
+}
+
+h1.repositories {
+  background-color: var(--color-dark);
+  padding: 1em 1em;
+  width: 100%;
+  text-align: center;
+}
+
+.no-repos {
+  padding: 0 1em;
+  max-width: 10em;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination > button {
+  background-color: var(--color-primary);
+  text-decoration:underline;
+  padding-top: 1em;
+  font-size: 1.1em;
+}
