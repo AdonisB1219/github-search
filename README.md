@@ -1,6 +1,8 @@
 # Buscador de Github
 
-El proyecto GitHub Searcher es una aplicación diseñada para buscar usuarios y repositorios en GitHub de manera eficiente y rápida. Utilizando la API pública de GitHub, esta aplicación permite a los usuarios buscar perfiles de usuarios y repositorios, proporcionando información detallada sobre ellos.
+El proyecto GitHub Searcher es una aplicación diseñada para buscar usuarios y repositorios en GitHub de manera eficiente y rápida. Utilizando la API GraphQL pública de GitHub, esta aplicación permite a los usuarios buscar perfiles de usuarios y repositorios, proporcionando información detallada sobre ellos.
+
+![Imagen de la aplicación](https://github.com/AdonisB1219/github-search/blob/main/src/assets/githubsearch.png)
 
 ## Uso
 
